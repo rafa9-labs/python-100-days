@@ -73,8 +73,7 @@ def _start_next_session():
         state = SessionState.SHORT_BREAK
         _set_state_ui("Short Break", PINK)
         _countdown(short_break_sec)
-
-
+        
     else:
         state = SessionState.WORK
         _set_state_ui("Work", GREEN)
