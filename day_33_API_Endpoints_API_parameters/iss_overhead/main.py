@@ -75,9 +75,10 @@ def send_email():
 def execute_every60():
     import time
     while True:
-        if check_nighttime(sunrise_time, sunset_time, now_time) and check_if_close(iss_latitude, iss_longitude, iss_latitude, iss_longitude):
+        if check_nighttime(sunrise_time, sunset_time, now_time):
+            if check_if_close(iss_latitude, iss_longitude, MY_LAT, MY_LONG):
         # if check_if_close(iss_latitude, iss_longitude, iss_latitude, iss_longitude):
-            send_email()
+                send_email()
         time.sleep(60)
 
 execute_every60()
