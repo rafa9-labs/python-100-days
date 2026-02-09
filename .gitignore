@@ -6,3 +6,7 @@ day_36_stock_alert_project/config.py
 # Python cache
 __pycache__/
 *.pyc
+
+# Ignore all env files anywhere
+.env
+**/.env
