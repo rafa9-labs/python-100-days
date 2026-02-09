@@ -1,6 +1,6 @@
 STOCK_API_KEY = "PUT_YOUR_ALPHA_VANTAGE_KEY"
 NEWS_API_KEY = "PUT_YOUR_NEWSAPI_KEY"
-sms_account_sid = "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+sms_account_sid = "TWILIO_ACCOUNT_SID_HERE"
 auth_token = "PUT_YOUR_TWILIO_AUTH_TOKEN"
 from_ = "+10000000000"
 to = "+10000000000"

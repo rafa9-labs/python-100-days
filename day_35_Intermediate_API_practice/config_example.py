@@ -1,4 +1,4 @@
-sms_account_sid = "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+sms_account_sid = "TWILIO_ACCOUNT_SID_HERE"
 auth_token = "PUT_YOUR_TWILIO_AUTH_TOKEN"
 weather_key = "PUT_YOUR_OPENWEATHER_KEY"
 from_number = "PUT FROM NUMBER HERE"
